@@ -6,10 +6,17 @@
 #Youtube : YamanEfkar
 clear
 echo -e  "
+
+
 \e[35m     ((( #Türk Siber Timi  #Yaman Efkar )))
+
+
+
 \e[31m[01]\e[32m Gmail
 \e[31m[02]\e[32m Yandex
 \e[31m[03]\e[32m Hotmail
+
+
 \e[31m[00]\e[37m Menü
 \e[31m[99]\e[37m Exit
 "
