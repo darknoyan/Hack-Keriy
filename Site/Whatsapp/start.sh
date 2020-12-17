@@ -9,10 +9,16 @@ echo -e '\033[32;40;1m
         ↺↺↺↺↺↺↺↺|
         \↺↺↺↺↺↺↺/
         ¯¯/\¯/\¯¯
+
+
+
 \033[31;40;1m[01]\e[37mWhatsapp Hack 
+
+
 \e[31m[00]\e[37m Menü
 \e[31m[99]\e[37m Exit
- '
+
+'
 echo -e "\033[32;40;1m                      ~~~Yaman Efkar~~~"
 echo ""
 read -p "İslem Numarası : " islem
