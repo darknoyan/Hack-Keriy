@@ -6,10 +6,17 @@
 #Youtube : YamanEfkar
 clear
 echo -e  "
+
+
 \e[35m     ((( #Türk Siber Timi  #Yaman Efkar )))
+
+
+
 \e[31m[01]\e[32m Wolfteam               \e[31m[04]\e[32m Zula
 \e[31m[02]\e[32m Legend Online          \e[31m[05]\e[32m LoL
 \e[31m[03]\e[32m Pubg
+
+
 \e[31m[00]\e[37m Menü
 \e[31m[99]\e[37m Exit
 "
