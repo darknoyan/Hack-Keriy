@@ -1,7 +1,11 @@
 #!/bin/bash
 clear
 echo -e  "
+
+
 \e[35m     ((( #Türk Siber Timi  #Yaman Efkar )))
+
+
 "
 
 echo -e "\e[31m"
