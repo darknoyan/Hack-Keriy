@@ -1,3 +1,4 @@
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -98,10 +99,13 @@
   <br>      
 <!--
 <font size='4'><b>Uygulamayla giriş:</b></font>
-        <font size='3'><br><a href='https://begen.co/?kurulum=0'>Buradan</a> şifresiz giriş yapabilirsiniz.
+ 
+<font size='3'><br><a href='https://begen.co/?kurulum=0'>Buradan</a> şifresiz giriş yapabilirsiniz.
         Bu yöntem ile hesabınız checkpointe düşmez ve çok daha kolay bir şekilde giriş yapabilirsiniz.
         </font>
+
 </td>
+
 <font size='4'><b>Eklentiyle giriş:</b>
 <br>
       Chrome Eklentisini <a href='https://chrome.google.com/webstore/detail/get-cookie-api/pnnddjfpgpopbpacpbbncaoehhjpkemk'>Buradan</a> indirebilirsiniz.<br>
