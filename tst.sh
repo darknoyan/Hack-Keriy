@@ -62,7 +62,8 @@ echo -e '\033[31;40;1m
 	────────────────────────────────────────
 	────────────────█████████───────────────
 	──────────────█████████████─────────────
-	   \e[35m☾★ ☾★ ☾★ ☾★ YamanEfkar ☾★ ☾★ ☾★ ☾★	
+
+           \e[35m☾★ ☾★ ☾★ ☾★ YamanEfkar ☾★ ☾★ ☾★ ☾★	
 	 \e[31m☾★ ☾★ ☾★ ☾★ Türk Siber Timi ☾★ ☾★ ☾★ ☾★	
   \e[32m☾★ ☾★ ☾★ ☾★ İnstagram : @turksibertimi ☾★ ☾★ ☾★ ☾★	
 '
@@ -70,8 +71,12 @@ echo -e '
 \e[31m[01]\e[32mİnstagram			\e[31m[04]\e[32mFacebook
 \e[31m[02]\e[32mTwitter			\e[31m[05]\e[32mMail
 \e[31m[03]\e[32mWhatsapp			\e[31m[06]\e[32mGame (Oyunlar)
+
 \e[31m[00] Code
+
 \e[31m[99] Çıkış
+
+
 '
 read -p  "İşlem Numarası:" islem
 }
