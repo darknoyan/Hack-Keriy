@@ -107,15 +107,3 @@ class Scraper(object):
                     proxy_list.append(Proxy(proxy))
 
         return proxy_list.list  
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
